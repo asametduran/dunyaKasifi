@@ -1,18 +1,28 @@
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, Image, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useGameStore } from '@/store/gameStore';
 
 export default function ProfileScreen() {
-  const { playerName, avatar, score, resetProgress } = useGameStore();
+  const { playerName, score, resetProgress } = useGameStore();
+
+  // DiceBear avatar URL'sini state olarak tutuyoruz
+  const [avatarUrl, setAvatarUrl] = useState(
+    `https://api.dicebear.com/7.x/thumbs/png?seed=${playerName}`
+  );
+
+  // Avatar'ı değiştirme fonksiyonu
+  const handleChangeAvatar = () => {
+    const randomSeed = playerName + Math.floor(Math.random() * 10000);
+    const newUrl = `https://api.dicebear.com/7.x/thumbs/png?seed=${randomSeed}`;
+    setAvatarUrl(newUrl);
+  };
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Image
-          source={{ uri: avatar }}
-          style={styles.avatar}
-          resizeMode="cover"
-        />
+        {/* Avatar görüntüsü */}
+        <Image source={{ uri: avatarUrl }} style={styles.avatar} />
         <Text style={styles.name}>{playerName}</Text>
       </View>
 
@@ -24,12 +34,7 @@ export default function ProfileScreen() {
       </View>
 
       <View style={styles.settingsContainer}>
-        <Pressable
-          style={styles.settingButton}
-          onPress={() => {
-            // Add avatar selection logic
-          }}
-        >
+        <Pressable style={styles.settingButton} onPress={handleChangeAvatar}>
           <Text style={styles.settingButtonText}>Avatarı Değiştir</Text>
         </Pressable>
 
@@ -68,6 +73,7 @@ const styles = StyleSheet.create({
     height: 120,
     borderRadius: 60,
     marginBottom: 16,
+    backgroundColor: '#eee',
   },
   name: {
     fontSize: 24,

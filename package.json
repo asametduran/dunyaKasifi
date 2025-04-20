@@ -12,6 +12,7 @@
     "@expo-google-fonts/nunito": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
     "@lucide/lab": "^0.1.2",
+    "@react-native-picker/picker": "^2.11.0",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
     "cross-env": "^7.0.3",
@@ -42,6 +43,7 @@
     "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "^0.19.13",
     "react-native-webview": "13.12.5",
+    "react-nice-avatar": "^1.5.0",
     "zustand": "^4.5.2"
   },
   "devDependencies": {
