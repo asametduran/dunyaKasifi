@@ -58,6 +58,12 @@ npx expo start
 - Avatar kişiselleştirme
 - Dil öğrenme mini oyunları
 
+## 📱 Uygulama Tanıtımı
+
+Uygulamayı daha yakından tanımak ve nasıl çalıştığını görmek için aşağıdaki bağlantıya göz atabilirsiniz. 👇
+
+🎬 **Tanıtım videoları için:**  
+🔗 [Minik Kaşif YouTube Kanalı](https://www.youtube.com/@minikkasifthy)
 
 
 📫 İletişim
