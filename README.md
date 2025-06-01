@@ -1,75 +1,64 @@
-# Minik Kaşifin Dünyası
+# 🌍 Dünya Kaşifi - Mobil Ülke Tanıtım Uygulaması
 
-🚀 Özellikler
+**Dünya Kaşifi**, kullanıcıların dünya üzerindeki ülkeleri keşfetmesini sağlayan mobil bir bilgi uygulamasıdır. Uygulama, her ülke hakkında genel kültür bilgileri sunarak hem eğitici hem de kullanıcı dostu bir deneyim sunmayı amaçlamaktadır.
 
-🌍 Etkileşimli dünya haritası
-🧠 Ülke bazlı bilgi kartları ve mini oyunlar
-🎵 Her ülkeye özgü müzik ve kültürel öğeler
-🛂 Pasaport sistemiyle ilerleme takibi
-👨‍👩‍👧‍👦 Ebeveyn paneli ile gelişim raporları
-🎨 Avatar özelleştirme sistemi
-📱 Düşük donanımlı cihazlarda dahi yüksek performans
+## 📱 Uygulama Özellikleri
 
+- 🌐 Ülke listesi ve detaylı bilgiler (başkent, para birimi, nüfus, bayrak vb.)
+- 🔍 Hızlı arama özelliğiyle ülke bulma
+- 🇺🇳 Rest Countries API üzerinden gerçek zamanlı veri çekme
+- 🎯 Basit ve kullanıcı dostu arayüz
+- 📦 React Native ile geliştirildi (Expo framework kullanılarak)
 
+## 🚀 Kurulum ve Çalıştırma
 
-
-⚙️ Kullanılan Teknolojiler
-
-- Katman	Teknoloji
-- Framework	Expo + React Native
-- Backend	Firebase
-- Veritabanı	Firebase Firestore
-- Kimlik Doğrulama	Firebase Auth
-- Tasarım	Figma
-- Versiyon Kontrolü	Git + GitHub
-
-
-
-🧑‍💻 Kurulum
-Projeyi yerelde çalıştırmak için:
-# Repo'yu klonlayın
+```bash
+# Depoyu klonlayın
 git clone https://github.com/asametduran/dunyaKasifi.git
 
-# Dizine girin
+# Dizine gidin
+cd dunyaKasifi
 
-# Bağımlılıkları yükleyin
+# Gerekli paketleri yükleyin
 npm install
 
-# Expo başlat
+# Uygulamayı başlatın (Expo kullanılarak)
 npx expo start
+```
 
+## 🛠️ Kullanılan Teknolojiler
 
-🧪 Test Planı
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Rest Countries API](https://restcountries.com/)
+- JavaScript
+- Axios (API istekleri için)
+## 📱 Uygulama Görselleri
 
-👶 Hedef grup: 5-12 yaş arası çocuklar
+### 🌍 Ana Sayfa
+![Ana Sayfa](https://asametduran.github.io/dunyaKasifi/image_1.jpg)
 
+### 🔍 Ülke Detay Sayfası
+![Ülke Detay](https://asametduran.github.io/dunyaKasifi/image_2.jpg)
 
-✅ Test Süreci:
+### 🗺️ Keşif Sayfası
+![Keşif Sayfası](https://asametduran.github.io/dunyaKasifi/image_3.jpg)
 
-- Kullanıcı akışı testi
-- İçerik anlaşılırlığı
-- Oynanabilirlik ve ilgi düzeyi
+## 👨‍💻 Geliştirici
 
+- **Samet Duran**  
+  [GitHub](https://github.com/asametduran) | [LinkedIn](https://www.linkedin.com/in/sametdurann/)
 
-📌 Yol Haritası
-- Ana harita ve ülke seçimi
-- Pasaport sistemi
-- Mini oyunlar ve bilgi kartları
-- Avatar kişiselleştirme
-- Dil öğrenme mini oyunları
+- **Nida Kılıç**  
+  [GitHub](https://github.com/Nidaklc044) | [LinkedIn](https://www.linkedin.com/in/nida-kilic-/)
 
-## 📱 Uygulama Tanıtımı
+## 🔗 Canlı Önizleme
 
-Uygulamayı daha yakından tanımak ve nasıl çalıştığını görmek için aşağıdaki bağlantıya göz atabilirsiniz. 👇
+Web sürümü için (test amaçlı):  
+➡️ [https://asametduran.github.io/dunyaKasifi/](https://asametduran.github.io/dunyaKasifi/)
 
-🎬 **Tanıtım videoları için:**  
-🔗 [Minik Kaşif YouTube Kanalı](https://www.youtube.com/@minikkasifthy)
+> ⚠️ Not: Web sürümü, mobil deneyimi tam olarak yansıtmaz. En iyi deneyim için Expo Go uygulaması ile test ediniz.
 
+## 📄 Lisans
 
-📫 İletişim
-Geliştirici: Nida Kılıç -Abdulsamet Duran
-E-posta: minikkasifthy@gmail.com
-Web: [www.minikgezgin.com](https://stupendous-faun-fe0284.netlify.app/)
-
-
-
+Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için `LICENSE` dosyasını inceleyebilirsiniz.
