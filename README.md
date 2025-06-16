@@ -38,9 +38,6 @@ npx expo start
 ### 🌍 Ana Sayfa
 ![Ana Sayfa](https://asametduran.github.io/dunyaKasifi/image_1.jpg)
 
-### 🔍 Ülke Detay Sayfası
-![Ülke Detay](https://asametduran.github.io/dunyaKasifi/image_2.jpg)
-
 ### 🗺️ Keşif Sayfası
 ![Keşif Sayfası](https://asametduran.github.io/dunyaKasifi/image_3.jpg)
 
