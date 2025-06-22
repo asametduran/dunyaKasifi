@@ -102,6 +102,7 @@ Bu proje, bir **Artırılmış Gerçeklik (AR)** uygulamasıdır. Uygulama, ciha
 
 Uygulamanın AR yeteneklerini, kurulumunu ve genel tanıtımını gösteren videolara aşağıdaki linklerden ulaşabilirsiniz:
 
+* 🎬 **Uygulama Tanıtım Videosu:** [Tanıtım Filmini İzle](https://youtube.com/shorts/xH-wPcp0srg?si=vzzsOSXqRch16mE-) - (Uygulamanın genel akışını, testleri, pasaport ve karakter seçimi gibi özelliklerini gösteren tanıtım filmi.)
 * 🎥 **Demo AR Videosu:** [https://youtube.com/shorts/MgLl2Higlbc?feature=share](https://youtube.com/shorts/MgLl2Higlbc?feature=share)
 * ⚙️ **AR Demo Videosu:** [https://youtube.com/shorts/Zr3MnqDGCTQ?feature=share](https://youtube.com/shorts/Zr3MnqDGCTQ?feature=share)
 
