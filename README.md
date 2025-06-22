@@ -86,14 +86,14 @@ Başlamadan önce bilgisayarınızda aşağıdaki araçların kurulu olduğundan
 ### 📚 Kullanıcı Dokümanları
 Bu bölümde proje değerlendirmesi için talep edilen kullanıcı dokümanları bulunmaktadır.
 
-👉 **[Kullanıcı Dokümanlarını Görüntüle](https://drive.google.com/file/d/1-2ja9G09WPMsQ08lNQ2--Qnk7oUsZlDT/view?usp=sharing)**
+👉 **[Kullanıcı Dokümanlarını Görüntüle]([https://drive.google.com/file/d/1-2ja9G09WPMsQ08lNQ2--Qnk7oUsZlDT/view?usp=sharing](https://drive.google.com/file/d/1FQqauAF5r4-yy1KpHqcQQjI9N5BiXQJD/view?usp=sharing))**
 
 ---
 
 ### 📦 APK Dosyası
 Uygulamanın test edilebilir Android APK paketine aşağıdaki bağlantıdan ulaşabilirsiniz. Bu dosyayı indirip herhangi bir Android cihaza kurarak uygulamayı doğrudan test edebilirsiniz.
 
-🔽 **[Dünya Kâşifi APK İndir](https://drive.google.com/file/d/1-2ja9G09WPMsQ08lNQ2--Qnk7oUsZlDT/view?usp=sharing)**
+🔽 **[Dünya Kâşifi APK İndir]([https://drive.google.com/file/d/1-2ja9G09WPMsQ08lNQ2--Qnk7oUsZlDT/view?usp=sharing](https://drive.google.com/file/d/1Pn2aZYa3VPPQndejnR-X748NE8x3GUaA/view?usp=sharing))**
 
 ---
 
